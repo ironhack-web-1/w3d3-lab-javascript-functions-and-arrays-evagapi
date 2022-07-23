@@ -59,7 +59,7 @@ describe("Find the longest word", () => {
   });
 });
 
-xdescribe("Calculate the sum of array of numbers", () => {
+fdescribe("Calculate the sum of array of numbers", () => {
   it("should declare a function named sumNumbers", () => {
     expect(typeof sumNumbers).toBe("function");
   });
