@@ -128,7 +128,7 @@ xdescribe("Bonus: Calculate the sum", () => {
   });
 });
 
-fdescribe("Calculate the average of an array of numbers", () => {
+describe("Calculate the average of an array of numbers", () => {
   it("should declare a function named averageNumbers", () => {
     expect(typeof averageNumbers).toBe("function");
   });
@@ -150,7 +150,7 @@ fdescribe("Calculate the average of an array of numbers", () => {
   });
 });
 
-xdescribe("Calculate the average of an array of strings", () => {
+fdescribe("Calculate the average of an array of strings", () => {
   it("should declare a function named averageWordLength", () => {
     expect(typeof averageWordLength).toBe("function");
   });

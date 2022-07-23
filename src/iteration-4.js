@@ -22,3 +22,33 @@ function sumNumbers(arrayOfNumbers) {
   }
   return result;
 }
+
+// Level 2: Array of strings
+const wordsArr = [
+  "seat",
+  "correspond",
+  "linen",
+  "motif",
+  "hole",
+  "smell",
+  "smart",
+  "chaos",
+  "fuel",
+  "palace",
+];
+
+function averageWordLength(arrayOfWords) {
+  let sumOfLengths = 0;
+  if (arrayOfWords.length === 0) {
+    return null;
+  }
+
+  if (arrayOfWords.length === 1) {
+    return arrayOfWords[0].length;
+  }
+
+  for (let word of arrayOfWords) {
+    sumOfLengths += word.length;
+  }
+  return sumOfLengths / arrayOfWords.length;
+}
