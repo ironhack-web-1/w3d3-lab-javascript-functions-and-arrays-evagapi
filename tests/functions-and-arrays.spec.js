@@ -32,7 +32,7 @@ describe("Find the maximum", () => {
   });
 });
 
-describe("Find the longest word", () => {
+xdescribe("Find the longest word", () => {
   it("should declare a function named findLongestWord", () => {
     expect(typeof findLongestWord).toBe("function");
   });
@@ -59,7 +59,7 @@ describe("Find the longest word", () => {
   });
 });
 
-describe("Calculate the sum of array of numbers", () => {
+xdescribe("Calculate the sum of array of numbers", () => {
   it("should declare a function named sumNumbers", () => {
     expect(typeof sumNumbers).toBe("function");
   });
@@ -81,7 +81,7 @@ describe("Calculate the sum of array of numbers", () => {
   });
 });
 
-describe("Bonus: Calculate the sum", () => {
+xdescribe("Bonus: Calculate the sum", () => {
   it("should declare a function named sum", () => {
     expect(typeof sum).toBe("function");
   });
@@ -128,7 +128,7 @@ describe("Bonus: Calculate the sum", () => {
   });
 });
 
-describe("Calculate the average of an array of numbers", () => {
+xdescribe("Calculate the average of an array of numbers", () => {
   it("should declare a function named averageNumbers", () => {
     expect(typeof averageNumbers).toBe("function");
   });
@@ -150,7 +150,7 @@ describe("Calculate the average of an array of numbers", () => {
   });
 });
 
-describe("Calculate the average of an array of strings", () => {
+xdescribe("Calculate the average of an array of strings", () => {
   it("should declare a function named averageWordLength", () => {
     expect(typeof averageWordLength).toBe("function");
   });
@@ -179,7 +179,7 @@ describe("Calculate the average of an array of strings", () => {
   });
 });
 
-describe("Bonus: Calculate the average of a mixed elements array", () => {
+xdescribe("Bonus: Calculate the average of a mixed elements array", () => {
   it("should declare a function named avg", () => {
     expect(typeof avg).toBe("function");
   });
@@ -200,7 +200,7 @@ describe("Bonus: Calculate the average of a mixed elements array", () => {
   });
 });
 
-describe("Unique array", () => {
+xdescribe("Unique array", () => {
   it("should declare a function named uniquifyArray", () => {
     expect(typeof uniquifyArray).toBe("function");
   });
@@ -236,7 +236,7 @@ describe("Unique array", () => {
   });
 });
 
-describe("Find elements", () => {
+xdescribe("Find elements", () => {
   it("should declare a function named doesWordExist", () => {
     expect(typeof doesWordExist).toBe("function");
   });
@@ -268,7 +268,7 @@ describe("Find elements", () => {
   });
 });
 
-describe("Count repetition", () => {
+xdescribe("Count repetition", () => {
   it("should declare a function named howManyTimes", () => {
     expect(typeof howManyTimes).toBe("function");
   });
@@ -309,7 +309,7 @@ describe("Count repetition", () => {
   });
 });
 
-describe("Bonus Quest - greatestProduct", () => {
+xdescribe("Bonus Quest - greatestProduct", () => {
   it("should declare a function named greatestProduct", () => {
     expect(typeof greatestProduct).toBe("function");
   });
