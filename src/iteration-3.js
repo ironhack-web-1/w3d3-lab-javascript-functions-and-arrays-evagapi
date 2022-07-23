@@ -10,7 +10,7 @@ function sumNumbers(arrayOfNumbers) {
   return result;
 }
 
-// Iteration #3.1 Bonus:
+// Iteration #3.1 Bonus: Sum numbers, strings and booleans
 
 const mixedArr = [6, 12, "miami", 1, true, "barca", "200", "lisboa", 8, 10];
 
