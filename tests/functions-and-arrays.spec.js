@@ -150,7 +150,7 @@ describe("Calculate the average of an array of numbers", () => {
   });
 });
 
-fdescribe("Calculate the average of an array of strings", () => {
+describe("Calculate the average of an array of strings", () => {
   it("should declare a function named averageWordLength", () => {
     expect(typeof averageWordLength).toBe("function");
   });
@@ -179,7 +179,7 @@ fdescribe("Calculate the average of an array of strings", () => {
   });
 });
 
-xdescribe("Bonus: Calculate the average of a mixed elements array", () => {
+describe("Bonus: Calculate the average of a mixed elements array", () => {
   it("should declare a function named avg", () => {
     expect(typeof avg).toBe("function");
   });
@@ -200,7 +200,7 @@ xdescribe("Bonus: Calculate the average of a mixed elements array", () => {
   });
 });
 
-xdescribe("Unique array", () => {
+fdescribe("Unique array", () => {
   it("should declare a function named uniquifyArray", () => {
     expect(typeof uniquifyArray).toBe("function");
   });
