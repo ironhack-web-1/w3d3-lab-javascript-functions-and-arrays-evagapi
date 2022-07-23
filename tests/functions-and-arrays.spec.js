@@ -32,7 +32,7 @@ describe("Find the maximum", () => {
   });
 });
 
-xdescribe("Find the longest word", () => {
+describe("Find the longest word", () => {
   it("should declare a function named findLongestWord", () => {
     expect(typeof findLongestWord).toBe("function");
   });
