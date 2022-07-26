@@ -277,7 +277,7 @@ describe("Day 2", () => {
     });
   });
 
-  fdescribe("Count repetition", () => {
+  describe("Count repetition", () => {
     it("should declare a function named howManyTimes", () => {
       expect(typeof howManyTimes).toBe("function");
     });
@@ -320,7 +320,7 @@ describe("Day 2", () => {
     });
   });
 
-  describe("Bonus Quest - greatestProduct", () => {
+  fdescribe("Bonus Quest - greatestProduct", () => {
     it("should declare a function named greatestProduct", () => {
       expect(typeof greatestProduct).toBe("function");
     });
