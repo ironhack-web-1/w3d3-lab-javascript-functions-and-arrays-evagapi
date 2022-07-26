@@ -320,7 +320,7 @@ describe("Day 2", () => {
     });
   });
 
-  fdescribe("Bonus Quest - greatestProduct", () => {
+  describe("Bonus Quest - greatestProduct", () => {
     it("should declare a function named greatestProduct", () => {
       expect(typeof greatestProduct).toBe("function");
     });
