@@ -204,7 +204,47 @@ describe("Day 1", () => {
   });
 });
 
-xdescribe("Day 2", () => {
+fdescribe("Day 2", () => {
+  describe("Unique array", () => {
+    it("should declare a function named uniquifyArray", () => {
+      expect(typeof uniquifyArray).toBe("function");
+    });
+
+    it("should return null if receives an empty array when called", () => {
+      expect(uniquifyArray([])).toEqual(null);
+    });
+
+    it("should return the correct uniqified array when an array of the same elements passed as argument", () => {
+      expect(uniquifyArray(["Ironhack", "Ironhack", "Ironhack"])).toEqual([
+        "Ironhack",
+      ]);
+    });
+
+    it("should return the same array when no element is repeated", () => {
+      expect(uniquifyArray(["Cat", "Dog", "Cow"])).toEqual([
+        "Cat",
+        "Dog",
+        "Cow",
+      ]);
+    });
+
+    it("should return the uniquified array", () => {
+      expect(
+        uniquifyArray([
+          "iPhone",
+          "Samsung",
+          "Android",
+          "iOS",
+          "iPhone",
+          "Samsung",
+          "Nokia",
+          "Blackberry",
+          "Android",
+        ])
+      ).toEqual(["iPhone", "Samsung", "Android", "iOS", "Nokia", "Blackberry"]);
+    });
+  });
+
   describe("Find elements", () => {
     it("should declare a function named doesWordExist", () => {
       expect(typeof doesWordExist).toBe("function");

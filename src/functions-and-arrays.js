@@ -1,21 +1,6 @@
 /*
 
-// Iteration #5: Unique arrays
-const wordsUnique = [
-  "crab",
-  "poison",
-  "contagious",
-  "simple",
-  "bring",
-  "sharp",
-  "playground",
-  "poison",
-  "communion",
-  "simple",
-  "bring",
-];
 
-function uniquifyArray() {}
 
 // Iteration #6: Find elements
 const wordsFind = [
