@@ -204,7 +204,7 @@ describe("Day 1", () => {
   });
 });
 
-fdescribe("Day 2", () => {
+describe("Day 2", () => {
   describe("Unique array", () => {
     it("should declare a function named uniquifyArray", () => {
       expect(typeof uniquifyArray).toBe("function");
@@ -245,7 +245,7 @@ fdescribe("Day 2", () => {
     });
   });
 
-  describe("Find elements", () => {
+  fdescribe("Find elements", () => {
     it("should declare a function named doesWordExist", () => {
       expect(typeof doesWordExist).toBe("function");
     });
