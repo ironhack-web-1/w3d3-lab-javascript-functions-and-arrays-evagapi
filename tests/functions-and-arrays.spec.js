@@ -245,7 +245,7 @@ describe("Day 2", () => {
     });
   });
 
-  fdescribe("Find elements", () => {
+  describe("Find elements", () => {
     it("should declare a function named doesWordExist", () => {
       expect(typeof doesWordExist).toBe("function");
     });
@@ -277,7 +277,7 @@ describe("Day 2", () => {
     });
   });
 
-  describe("Count repetition", () => {
+  fdescribe("Count repetition", () => {
     it("should declare a function named howManyTimes", () => {
       expect(typeof howManyTimes).toBe("function");
     });
